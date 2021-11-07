@@ -1,8 +1,8 @@
-function [ newimg ] = resize( oldimg,width,height )
+function [ newimg ] = resize( oldimg,new_width,new_height )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
-new_x = width;
-new_y = height;
+new_x = new_width;
+new_y = new_height;
 newimg = zeros(new_x,new_y,'uint8');
 [old_x, old_y,page] = size(oldimg);
 rr = new_x/old_x;
