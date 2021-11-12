@@ -1,4 +1,4 @@
-function [ newimg ] = resize( oldimg,new_width,new_height )
+function [ newimg ] = resize( oldimg,width,height )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 new_x = new_width;
